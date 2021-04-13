@@ -1,0 +1,61 @@
+.banner {
+    background-image: url("../../../Assets/Images/Group\ 333.png");
+    background-size: cover;
+    background-position:center center ;
+    position: relative;
+    object-fit: cover;
+    height: 100vh;
+    margin-top: -55px;
+    z-index: -1;
+}
+
+.banner__content {
+    margin-left: 150px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    height: fit-content;
+    width: 450px;
+    color: #fff;
+}
+
+.banner__title {
+    font-size: 3.2rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-bottom: 1.5rem;
+}
+
+.banner__desc {
+padding-bottom: 1.5rem;
+}
+
+.banner__input {
+    width: 580px;
+    background-color: #fff;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 19px;
+}
+
+.input__field {
+    width: 78%;
+    border: 0;
+    outline: none;
+    padding: 17px 20px;
+    font-size: 13px;
+}
+
+.banner__button {
+    color: #fff;
+    background-image: url("../../../Assets/Images/Group\ 326.png");
+    background-size: contain;
+    background-position: center center;
+    width: 22%;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}

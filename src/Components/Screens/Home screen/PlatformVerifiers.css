@@ -1,0 +1,52 @@
+.pv__sec {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.pv__sec > h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 400;
+}
+
+.pv__sec > p {
+    text-align: center;
+    padding: 20px 180px;
+}
+
+.pv__details {
+    display: flex;
+    padding: 20px 190px;
+}
+
+.pv__img {
+    height: 400px;
+    width: 100%;
+}
+
+.sec__details {
+    padding-left: 50px;
+    text-align: left;
+    justify-content: left;
+}
+
+.sec__details > h3 {
+    padding-right: 280px;
+    font-weight: 600;
+}
+
+.sec__details > p {
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.sec__details > button {
+    background: #066FC0;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+}

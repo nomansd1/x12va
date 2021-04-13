@@ -1,0 +1,50 @@
+
+.navbar {
+    background-color: #066FC0;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo__container {
+    margin-left: 170px;
+}
+
+.logo {
+    padding-top: -20px;
+}
+
+.nav__content {
+    color: #fff;
+    margin-right: 170px;
+}
+
+.nav__link {
+    padding: 0 20px;
+    font-family: poppins;
+    font-size: 13px;
+    text-shadow: #000;
+    text-transform: capitalize;
+}
+
+.signin__icon {
+    margin-bottom:-5px;
+    margin-right: 13px;
+}
+
+
+
+.nav__content > button {
+    background-color: #066FC0;
+    color: #fff;
+    border: 2px solid #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 19px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 13px;
+}
