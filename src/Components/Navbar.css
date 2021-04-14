@@ -2,10 +2,10 @@
 .navbar {
     background-color: #066FC0;
     width: 100%;
-    height: 55px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .logo__container {
