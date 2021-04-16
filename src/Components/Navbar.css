@@ -27,6 +27,8 @@
     font-size: 13px;
     text-shadow: #000;
     text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
 }
 
 .signin__icon {
