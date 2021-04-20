@@ -16,7 +16,7 @@ function Experts() {
     return (
         <div className="wrapper">
             <div className="experts__header">
-                <h1>Meet our experts</h1>
+                <h2>Meet our experts</h2>
             </div>
             <ExpertGridRow
                 title="Subject Specialists"

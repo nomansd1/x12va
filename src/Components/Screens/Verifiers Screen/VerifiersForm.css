@@ -1,0 +1,8 @@
+.form__wrapperCont {
+    margin-top: 20px;
+}
+
+.form__wrapperCont > form {
+    display: flex;
+    flex-direction: column;
+}
