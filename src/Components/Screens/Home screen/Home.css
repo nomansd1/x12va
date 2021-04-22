@@ -1,0 +1,34 @@
+.banner {
+    /* background-image: url("../../../Assets/Images/Group\ 333.png"); */
+    background-size: cover;
+    background-position:center center ;
+    position: relative;
+    object-fit: cover;
+    height: 100vh;
+    /* opacity: 1; */
+    transition: 5s;
+    
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 12s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.2,0.25,0.23,2);
+    
+}
+
+@keyframes animate {
+    0%{
+        background-image: url("../../../Assets/Images/Group\ 359@2x.png");
+    }
+    20%{
+        background-image: url("../../../Assets/Images/Group\ 359@2x.png");
+    }
+    50%{
+        background-image: url("../../../Assets/Images/Group\ 367.png");
+    }
+    100%{
+        background-image: url("../../../Assets/Images/Group\ 333.png");
+    }
+}

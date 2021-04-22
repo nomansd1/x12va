@@ -1,11 +1,22 @@
 
 .navbar {
-    background-color: #066FC0;
+    /* background-color: #066FC0; */
+    background-color: transparent;
     width: 100%;
     height: 65px;
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar__color {
+    background-color: #066FC0;
+}
+
+.nav__scroll {
+    background-color: #066FC0;
 }
 
 .logo__container {
@@ -39,7 +50,7 @@
 
 
 .nav__content > button {
-    background-color: #066FC0;
+    background-color: transparent;
     color: #fff;
     border: 2px solid #fff;
     padding-top: 6px;

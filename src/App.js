@@ -13,11 +13,22 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar/>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/experts" exact component={Experts} />
-          <Route path="/verifiers" exact component={Verifiers} />
+          <Route path="/" exact>
+            <Home/>
+          </Route>
+          <Route path="/experts" exact>
+            <Navbar 
+              cName="navbar__color"
+            />
+            <Experts/>
+          </Route>
+          <Route path="/verifiers" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <Verifiers/>
+          </Route>
         </Switch>
         <Footer/>
       </BrowserRouter>

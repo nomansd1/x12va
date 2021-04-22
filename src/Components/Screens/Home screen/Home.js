@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import './Home.css'
+
+import Navbar from '../../Navbar'
 
 // All components of Home screen 
 import Banner from './Banner'
@@ -11,9 +14,26 @@ import OpportunitySection from './OpportunitySection'
 import TopExpertSec from './TopExpertSec'
 
 function Home() {
+
+    // useEffect(() => {
+    //         const images = [
+    //             'url("../../../Assets/Images/Group 361.png")',
+    //             'url("../../../Assets/Images/Group 367.png")',
+    //         ];
+        
+    //         const section = document.querySelector('section');
+    //         const bg = images[Math.floor(Math.random() * images.length)];
+    //         section.style.backgroundImage = bg;
+    //     setInterval( , 100);
+
+    // }, [])
+
     return (
         <div>
-            <Banner/>
+            <section className="banner">
+                <Navbar/>
+                <Banner/>
+            </section>
             <CategoriesSection/>
             <PlatformVerifiers/>
             <ExploreMarket/>

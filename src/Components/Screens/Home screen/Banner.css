@@ -1,11 +1,11 @@
-.banner {
+/* .banner {
     background-image: url("../../../Assets/Images/Group\ 333.png");
     background-size: cover;
     background-position:center center ;
     position: relative;
     object-fit: cover;
     height: 90vh;
-}
+} */
 
 .banner__content {
     margin-left: 150px;

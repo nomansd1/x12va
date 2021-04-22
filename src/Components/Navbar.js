@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 
@@ -6,9 +6,26 @@ import { NavLink } from 'react-router-dom'
 import logo from '../Assets/Images/Group 143.png'
 import signinIcon from '../Assets/Images/sign in icon.png'
 
-function Navbar() {
+function Navbar({ cName }) {
+    
+    const [show, handleShow] = useState(false);
+
+    const transitionNavbar= () => {
+        if (window.scrollY > 670) {
+            handleShow(true);
+        }
+        else {
+            handleShow(false);
+        }
+    }
+    useEffect(() => {
+        window.addEventListener("scroll",transitionNavbar);
+        return () => window.removeEventListener("scroll", transitionNavbar); 
+    }, [])
+
+    
     return (
-        <div className="navbar">
+        <div className={`navbar ${show && 'nav__scroll'} ${cName}`}>
             <NavLink to="/">
                 <div className="logo__container">
                     <img src={logo} className="logo" />
