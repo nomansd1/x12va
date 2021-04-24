@@ -15,19 +15,6 @@ import TopExpertSec from './TopExpertSec'
 
 function Home() {
 
-    // useEffect(() => {
-    //         const images = [
-    //             'url("../../../Assets/Images/Group 361.png")',
-    //             'url("../../../Assets/Images/Group 367.png")',
-    //         ];
-        
-    //         const section = document.querySelector('section');
-    //         const bg = images[Math.floor(Math.random() * images.length)];
-    //         section.style.backgroundImage = bg;
-    //     setInterval( , 100);
-
-    // }, [])
-
     return (
         <div>
             <section className="banner">

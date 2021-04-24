@@ -21,7 +21,7 @@ function App() {
             <Navbar 
               cName="navbar__color"
             />
-            <Experts/>
+            {/* <Experts/> */}
           </Route>
           <Route path="/verifiers" exact>
             <Navbar

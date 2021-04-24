@@ -12,25 +12,31 @@ function CategoriesSection() {
         <div className="category">
             <h1>Popular Categories</h1>
             <p>Aenean gravida nibh sed erat aliquet in rutrum eros pallentesque, Curabitur tincidunt  fascibus est.</p>
-            
+
             <div className="categories__slider">
-                <button className="slider__btn">&lt;</button>
-                <Category
-                    title="Content Writing"
-                    img={cat1}
-                />
-                <Category
-                    title="Management"
-                    img={cat2}
-                />
-                <Category
-                    title="Finance"
-                    img={cat3}
-                />
-                <Category
-                    title="Social Media"
-                    img={cat4}
-                />
+                <button className="slider__btn slider__nav">&lt;</button>
+                <div className="slider">
+                    <div className="slider__inner">
+                        <div className="slider__contents">
+                            <Category
+                                title="Content Writing"
+                                img={cat1}
+                            />
+                            <Category
+                                title="Management"
+                                img={cat2}
+                            />
+                            <Category
+                                title="Finance"
+                                img={cat3}
+                            />
+                            <Category
+                                title="Social Media"
+                                img={cat4}
+                            />
+                        </div>
+                    </div>
+                </div>
                 <button className="slider__btn">&gt;</button>
             </div>
             <button className="all__categoriesbtn">All Categories</button>
