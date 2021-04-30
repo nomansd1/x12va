@@ -7,6 +7,7 @@ import Home from './Components/Screens/Home screen/Home'
 import Footer from './Components/Footer'
 import Experts from './Components/Screens/Experts Screen/Experts'
 import Verifiers from './Components/Screens/Verifiers Screen/Verifiers'
+import ProfileManagement from './Components/Screens/Profile Screen/ProfileManagement';
 
 
 function App() {
@@ -21,13 +22,19 @@ function App() {
             <Navbar 
               cName="navbar__color"
             />
-            {/* <Experts/> */}
+            <Experts/>
           </Route>
           <Route path="/verifiers" exact>
             <Navbar
               cName="navbar__color"
             />
             <Verifiers/>
+          </Route>
+          <Route path="/profile" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <ProfileManagement/>
           </Route>
         </Switch>
         <Footer/>

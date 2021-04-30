@@ -9,7 +9,9 @@ function PlatformVerifiers() {
             <h1>Platform backed by Verifiers.</h1>
             <p>A unique experience found on our platform. No one can send you wrong files. Your work is checked by our verifiers and is scored. Work is delivered to you only if gets approved from our verifiers.</p>
             <div className="pv__details">
-                <img src={secImage} className="pv__img" />
+                <div className="pv__imgContainer">
+                    {/* <img src={secImage} className="pv__img" /> */}
+                </div>
                 <div className="sec__details">
                     <h3>Concrete Selection of experts</h3>
                     <p>Working on this platform as expert isn’t easy. We have very rigorous, concrete and solid process before someone can make a profile and start working on your project.</p>

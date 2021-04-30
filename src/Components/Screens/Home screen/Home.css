@@ -33,7 +33,7 @@
 }
 
 
-@media screen and (max-width:990px) {
+@media (min-width:751px) and (max-width:990px) {
 
 .banner {
     background-size: cover;
@@ -42,7 +42,50 @@
 
 }
 
-@media screen and (max-width:700px) {
+
+@media (min-width:601px) and (max-width:750px)  {
+    
+    @keyframes animate {
+        0%{
+            background-image: url("../../../Assets/Images/green\ bg.png");
+        }
+        20%{
+            background-image: url("../../../Assets/Images/green\ bg.png");
+        }
+        50%{
+            background-image: url("../../../Assets/Images/purple\ bg.png");
+        }
+        100%{
+            background-image: url("../../../Assets/Images/blue\ bg.png");
+        }
+    }
+    
+}
+
+
+
+@media (min-width:401px) and (max-width:600px)  {
+    
+    @keyframes animate {
+        0%{
+            background-image: url("../../../Assets/Images/green\ bg.png");
+        }
+        20%{
+            background-image: url("../../../Assets/Images/green\ bg.png");
+        }
+        50%{
+            background-image: url("../../../Assets/Images/purple\ bg.png");
+        }
+        100%{
+            background-image: url("../../../Assets/Images/blue\ bg.png");
+        }
+    }
+    
+}
+
+
+
+@media (min-width:300px) and (max-width:400px) {
     
     @keyframes animate {
         0%{
