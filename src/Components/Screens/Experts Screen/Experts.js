@@ -1,6 +1,7 @@
 import React from 'react'
-import './Experts.css'
 import ExpertGridRow from './ExpertGridRow'
+import EverySectionHeader from '../../EverySectionHeader'
+
 
 import exp1 from '../../../Assets/Images/Mask Group 5.png'
 import exp2 from '../../../Assets/Images/Mask Group 6.png'
@@ -15,9 +16,9 @@ import exp8 from '../../../Assets/Images/Mask Group 10.png'
 function Experts() {
     return (
         <div className="wrapper">
-            <div className="experts__header">
-                <h2>Meet our experts</h2>
-            </div>
+            <EverySectionHeader
+                title="Experts"
+            />
             <ExpertGridRow
                 title="Subject Specialists"
                 avatar1={exp5}

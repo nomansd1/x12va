@@ -1,8 +1,8 @@
-.verifiers__wrapper {
+.evSec__wrapper {
     background-color: #F6F7FA;
 }
 
-.verifiers__header {
+.evSec__header {
     width: 100%;
     height: 80px;
     background-color: #fff;
@@ -10,7 +10,7 @@
     border-bottom: 3px solid #066FC0;
 }
 
-.verifiers__header h2 {
+.evSec__header h2 {
     font-weight: 400;
     padding-left: 150px;
     padding-bottom: 20px;

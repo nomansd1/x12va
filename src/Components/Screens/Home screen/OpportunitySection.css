@@ -94,3 +94,17 @@
     padding: 10px 40px;
     margin-bottom: 30px;
 }
+
+
+
+@media (min-width:300px) and (max-width:499px) {
+
+    .main__oppsec > p {
+        padding: 0 20px;
+    }
+    .main__oppsec > button {
+        padding: 8px 20px;
+        
+    }
+
+} 
