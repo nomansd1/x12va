@@ -32,6 +32,14 @@ h2 {
     background-color: #F6F7FA;
 }
 
+.expertInnerGrid {
+    background-color: #F6F7FA;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
 .exp__sliderbutton {
     width: 30px;
     height: 30px;

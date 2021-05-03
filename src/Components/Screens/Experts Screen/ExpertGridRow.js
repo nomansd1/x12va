@@ -36,6 +36,7 @@ function ExpertGridRow({ title , avatar1 , avatar2 ,
                 </div>
             </div>
             <div className="expertGrid__row">
+                <div className="expertInnerGrid">
                 <Slider {...settings}>
                 <ExpertTile
                     avatar={avatar1}
@@ -77,6 +78,7 @@ function ExpertGridRow({ title , avatar1 , avatar2 ,
                 
                 />
                 </Slider>
+                </div>
             </div>
 
             <hr className="horizontal__line"/>
