@@ -1,6 +1,10 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
+//Bootstrap
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+
 // components
 import Navbar from './Components/Navbar'
 import Home from './Components/Screens/Home screen/Home'

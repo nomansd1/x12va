@@ -112,7 +112,9 @@
 }
 
 .toolLangSkills > .MuiSvgIcon-root {
-    font-size: 12px;
+    font-size: 17px;
+    padding-left:5px;
+    cursor: pointer;
 }
 
 .toolLangSkills__wrapper {

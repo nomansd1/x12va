@@ -7,6 +7,7 @@ import logo from '../Assets/Images/Group 143.png'
 import signinIcon from '../Assets/Images/sign in icon.png'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
+import Login from './Screens/Login Screen/Login'
 
 function Navbar({ cName }) {
     
@@ -27,7 +28,10 @@ function Navbar({ cName }) {
 
     const [open, setOpen] = useState(false);
     
+    const [modalShow, setModalShow] = useState(false);
+
     return (
+        <>
         <div className={`navbar ${show && 'nav__scroll'} ${cName}`}>
             <NavLink to="/">
                 <div className="logo__container">
@@ -43,11 +47,19 @@ function Navbar({ cName }) {
                 <NavLink to="/profile" className="nav__link"><span>Work for us</span></NavLink>
                 <NavLink to="/verifiers" className="nav__link"><span>Verifiers</span></NavLink>
                 <NavLink to="/profile" className="nav__link"><span>Support us</span></NavLink>
-                <span className="nav__link"><img src={signinIcon} className="signin__icon" />Sign in</span>
+                <span className="nav__link" onClick={()=> setModalShow(true)} >
+                    <img src={signinIcon} className="signin__icon" />Sign in
+                </span>
                 <button>Create Account</button>
                 <div className="close__menu" onClick={()=> setOpen(false)}><CloseIcon/></div>
             </div>
         </div>
+        <Login
+            show={modalShow}
+            onHide={()=> setModalShow(false)}
+        />
+        
+        </>
     )
 }
 
