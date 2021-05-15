@@ -27,9 +27,8 @@ function ExpertGridRow({ title , avatar1 , avatar2 ,
     return (
         <div>
             <div className="exp__headerContainer">
-                <div className="exp __headerLeft">
+                <div className="exp__headerLeft">
                     <h2> {title} </h2>
-
                 </div>
                 <div className="exp__headerRight">
                     <button className="exp__sliderbutton">&lt;</button>

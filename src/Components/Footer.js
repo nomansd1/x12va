@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
                 © 2021 .Z12VA. All rights reserved.
                 <br/>
                 Privacy  l  Terms and Condition  
-                l  About Us
+                l  <NavLink to="/about">About Us</NavLink>
             </p>
         </div>
     )

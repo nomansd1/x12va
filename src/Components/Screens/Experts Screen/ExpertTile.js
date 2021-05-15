@@ -10,7 +10,8 @@ function ExpertTile({tileTitle, avatar}) {
                         className="avatar__expimage"
                     />
             </div>
-            <h5>{tileTitle}</h5>
+            <h5
+            >{tileTitle}</h5>
             <button>view details</button>
             
         </div>

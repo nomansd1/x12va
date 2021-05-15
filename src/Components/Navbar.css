@@ -1,6 +1,5 @@
 
 .navbar {
-    /* background-color: #066FC0; */
     background-color: transparent;
     width: 100%;
     height: 65px;
@@ -27,10 +26,6 @@
 .logo__container {
     margin-left: 170px;
 }
-
-/* .logo {
-    padding-top: -20px;
-} */
 
 .nav__content {
     color: #fff;
