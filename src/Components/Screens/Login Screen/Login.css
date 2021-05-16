@@ -1,5 +1,6 @@
 .modal__size {
     width: 360px;
+    margin: 0 auto;
 }
 
 .modal__wrapper {
