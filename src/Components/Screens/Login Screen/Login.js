@@ -14,10 +14,12 @@ function Login( props ) {
     return (
         <Modal
         {...props}
-        dialogClassName="modal__size"
+        dialogClassName="modal__size modal modal-open 
+            modal-dialog modal.fade modal-dialog-scrollable 
+            modal-dialog-centered"
         centered
         >
-            <Modal.Body>
+            <Modal.Body className="modal-body modal-content">
                 <div className="modal__wrapper">
                     <p className="closeModal__button" onClick={props.onHide}>x</p>
                     <h2>Sign In to X12VA</h2>
