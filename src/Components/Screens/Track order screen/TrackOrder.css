@@ -1,0 +1,42 @@
+.tOrder__inner {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 175px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.order__box {
+    width: 100%;
+    border: 1px solid #066FC0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.secOrder {
+    display: flex;
+    flex-direction: column;
+}
+.secOrder > label {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.input__secOrder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input__secOrder > input {
+    padding: 4px 10px;
+    width: 300px;
+}
+.input__secOrder > button {
+    padding: 6px 40px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: #066FC0;
+    color: #fff;
+}

@@ -16,6 +16,8 @@ import ProfileManagement from './Components/Screens/Profile Screen/ProfileManage
 import ClientProfile from './Components/Screens/Profile Screen/ClientProfile';
 import Aboutus from './Components/Screens/About Screen/Aboutus';
 import Help from './Components/Screens/Help Screen/Help';
+import TrackOrder from './Components/Screens/Track order screen/TrackOrder';
+import Work from './Components/Screens/Work for us screen/Work';
 
 
 function App() {
@@ -61,6 +63,18 @@ function App() {
               cName="navbar__color"
             />
             <Help/>
+          </Route>
+          <Route path="/trackorder" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <TrackOrder/>
+          </Route>
+          <Route path="/workforus" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <Work/>
           </Route>
         </Switch>
         <Footer/>

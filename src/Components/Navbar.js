@@ -44,7 +44,7 @@ function Navbar({ cName }) {
             <div className="nav__content" style={{ display: open ? "flex" : "flex", left: open ? "0" : "-100%"}}>
                 <NavLink to="/profile" className="nav__link"><span>Track my order</span></NavLink>
                 <NavLink to="/experts" className="nav__link"><span>Experts</span></NavLink>
-                <NavLink to="/profile" className="nav__link"><span>Work for us</span></NavLink>
+                <NavLink to="/workforus" className="nav__link"><span>Work for us</span></NavLink>
                 <NavLink to="/verifiers" className="nav__link"><span>Verifiers</span></NavLink>
                 <NavLink to="/profile" className="nav__link"><span>Support us</span></NavLink>
                 <span className="nav__link" onClick={()=> setModalShow(true)} >
