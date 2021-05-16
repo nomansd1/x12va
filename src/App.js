@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 
+// theme
+import './Components/Theme.css'
 
 
 // components
