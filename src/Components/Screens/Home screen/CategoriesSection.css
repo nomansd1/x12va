@@ -16,6 +16,8 @@
 .slick-prev:before,
 .slick-next:before {
     color: #066FC0 !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
 }
 
 .category > h1 {
@@ -53,7 +55,9 @@
     margin-bottom: 30px;
 }
 
-
+.slider {
+    padding-left: 10px !important;
+}
 
 @media (min-width:701px) and (max-width:990px) {
 

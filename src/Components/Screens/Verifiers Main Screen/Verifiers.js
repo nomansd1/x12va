@@ -1,5 +1,6 @@
 import React from 'react'
 import EverySectionHeader from '../../EverySectionHeader'
+import './VerifiersSection.css'
 
 // child components
 import VerifiersSection from './VerifiersSection'

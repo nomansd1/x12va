@@ -8,4 +8,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: poppins;
+  }
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
   }

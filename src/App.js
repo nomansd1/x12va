@@ -11,7 +11,7 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Screens/Home screen/Home'
 import Footer from './Components/Footer'
 import Experts from './Components/Screens/Experts Screen/Experts'
-import Verifiers from './Components/Screens/Verifiers Screen/Verifiers'
+import Verifiers from './Components/Screens/Verifiers Main Screen/Verifiers'
 import ProfileManagement from './Components/Screens/Profile Screen/ProfileManagement';
 import ClientProfile from './Components/Screens/Profile Screen/ClientProfile';
 import Aboutus from './Components/Screens/About Screen/Aboutus';
@@ -22,7 +22,7 @@ import Work from './Components/Screens/Work for us screen/Work';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
         <Switch>
           <Route path="/" exact>

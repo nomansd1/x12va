@@ -25,6 +25,7 @@ function VerifiersSection() {
                 <div><span>2</span>Re assign this work</div>
             </div>
             <VerifiersForm/>
+            <button className="verified__btn">get it verified</button>
         </div>
     )
 }

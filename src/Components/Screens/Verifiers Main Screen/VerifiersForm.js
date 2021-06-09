@@ -2,40 +2,8 @@ import React, { useCallback, useState } from 'react';
 import './VerifiersForm.css';
 import { useDropzone } from 'react-dropzone';
 
-
-// const baseStyle = {
-//     flex: 1,
-//     display: 'flex',
-//     flexDirection: "column",
-//     alignItems: "center",
-//     padding: "20px",
-//     borderWidth: 2,
-//     borderRadius: 2,
-//     borderColor: "#000",
-//     borderStyle: "dashed",
-//     outline: "none",
-//     transition: "border .24 ease-in-out"
-// };
-
-// const activeStyle = {
-
-// };
-
 function VerifiersForm() {
-
-    // const {file , errors} = useState();
-
-    // const [ files, setFiles ] = useState([]);
-    // const onDrop = useCallback(
-    //     (acceptedFiles, rejFiles) => {
-    //         const mappedAcc = acceptedFiles.map(file => ({file, errors}));
-    //         setFiles(curr => [...curr, ...mappedAcc, ...rejFiles]);
-    //     },
-    //     [],
-    // );
-        // const { getRootProps, getInputProps } = useDropzone({onDrop});
-        
-        
+                
         const { acceptedFiles, 
                 getRootProps, 
                 getInputProps,
@@ -61,8 +29,13 @@ function VerifiersForm() {
                 
                 <div {...getRootProps()} className="file__drag">
                     <input {...getInputProps()}/>
-                    <p>Drag and Drop Requirements file here</p>
-                    <br/>
+                    <p>
+                        Drag and Drop&nbsp;
+                        <span className="FileDragblue__span">
+                            Requirements
+                        </span> 
+                        &nbsp;file here
+                    </p>
                     <p>OR</p>
                     <button type="button" onClick={open}>
                         Select Files
@@ -70,8 +43,13 @@ function VerifiersForm() {
                 </div>
                 <div {...getRootProps()} className="file__drag">
                     <input {...getInputProps()}/>
-                    <p>Drag and Drop Solution files here</p>
-                    <br/>
+                    <p>
+                        Drag and Drop&nbsp; 
+                         <span className="FileDragblue__span">
+                            Solution
+                        </span> 
+                        &nbsp;files here
+                    </p>
                     <p>OR</p>
                     <button type="button" onClick={open}>
                         Select Files
