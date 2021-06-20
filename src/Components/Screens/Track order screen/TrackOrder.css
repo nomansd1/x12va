@@ -2,9 +2,10 @@
     width: 80%;
     margin: 40px auto;
     background-color: #fff;
-    padding: 100px 30px;
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px -1px 5px 1px #f1f1f1;
 }
 .order__box {
     width: 100%;
@@ -13,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 130px;
 }
 .secOrder {
     display: flex;
@@ -31,6 +32,10 @@
 .input__secOrder > input {
     padding: 4px 10px;
     width: 300px;
+    border: 2px solid lightgray;
+}
+.input__secOrder > input:focus {
+    border: 2px solid #066FC0;
 }
 .input__secOrder > button {
     padding: 6px 40px;

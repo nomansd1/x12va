@@ -7,11 +7,11 @@
     height: 80px;
     background-color: #fff;
     padding: 0px 20px;
-    border-bottom: 3px solid #066FC0;
+    box-shadow: 1px 1px 5px 0 #9897a9;
 }
 
 .evSec__header h2 {
-    font-weight: 400;
+    font-weight: 600;
     padding-left: 150px;
     padding-bottom: 20px;
     padding-top: 20px;
