@@ -21,7 +21,7 @@ function Navbar({ cName }) {
     const [show, handleShow] = useState(false);
 
     const transitionNavbar = () => {
-        if (window.scrollY > 50) {
+        if (window.scrollY > 80) {
             handleShow(true);
         }
         else {
