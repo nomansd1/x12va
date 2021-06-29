@@ -8,6 +8,10 @@
     background-color: #fff;
     padding: 0px 20px;
     box-shadow: 1px 1px 5px 0 #9897a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .evSec__header h2 {

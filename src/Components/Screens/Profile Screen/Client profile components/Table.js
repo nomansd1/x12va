@@ -1,14 +1,7 @@
-import AvatarGroup from './AvatarGroup'
+import Avatar from 'react-avatar';
 import react from '../../../../Assets/Icons/iconfinder_1_Facebook2_colored_svg_5296500.png'
-// import vuejs from '@src/assets/images/icons/vuejs.svg'
-// import angular from '@src/assets/images/icons/angular.svg'
-// import bootstrap from '@src/assets/images/icons/bootstrap.svg'
-// import avatar1 from '@src/assets/images/portrait/small/avatar-s-5.jpg'
-// import avatar2 from '@src/assets/images/portrait/small/avatar-s-6.jpg'
-// import avatar3 from '@src/assets/images/portrait/small/avatar-s-7.jpg'
-import { MoreVertical, Edit, Trash } from 'react-feather'
-import { Table, Badge, UncontrolledDropdown, 
-    DropdownMenu, DropdownItem, DropdownToggle } from 'reactstrap'
+import Badge from 'react-bootstrap/Badge'
+import Table from 'react-bootstrap/Table'
 
 const avatarGroupData1 = [
   {
@@ -48,73 +41,105 @@ const avatarGroupData4 = [
 
 const TableBorderless = () => {
   return (
-    <Table  striped responsive>
+    <Table  striped hover className="order__table">
       <thead>
         <tr>
-          <th>Project</th>
-          <th>Client</th>
-          <th>Users</th>
-          <th>Status</th>
+          <th>ORDER NUMBER</th>
+          <th>SUBJECT</th>
+          <th>BUDGET</th>
+          <th>START DATE</th>
+          <th>END DATE</th>
+          <th>STATUS</th>
         </tr>
       </thead>
       <tbody>
         <tr>
+          <td>7834</td>
           <td>
-            <img className='mr-75' src={react} alt='angular' height='20' width='20' />
-            <span className='align-middle font-weight-bold'>Angular Project</span>
+            <Avatar 
+              color={Avatar.getRandomColor('sitebase', ['#21BCDD', '#00A080', '#E7C621', '#8F43FB'])} 
+              name="Finance" round={true} size={32} 
+            />
+            <span className='align-middle font-weight-bold'>Finance</span>
           </td>
-          <td>Peter Charles</td>
+          <td className="mt-5">$567.00</td>
+          <td>Mar 23, 2021</td>
+          <td>Mar 30, 2021</td>
           <td>
-            <AvatarGroup data={avatarGroupData1} />
-          </td>
-          <td>
-            <Badge pill color='light-danger' className='mr-1'>
-              Active
-            </Badge>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img className='mr-75' src={react} alt='react' height='20' width='20' />
-            <span className='align-middle font-weight-bold'>React Project</span>
-          </td>
-          <td>Ronald Frest</td>
-          <td>
-            <AvatarGroup data={avatarGroupData2} />
-          </td>
-          <td>
-            <Badge pill color='danger' className='mr-1'>
+            <Badge pill variant="success" color="success" >
               Completed
             </Badge>
           </td>
         </tr>
         <tr>
+          <td>7834</td>
           <td>
-            <img className='mr-75' src={react} alt='vuejs' height='20' width='20' />
-            <span className='align-middle font-weight-bold'>Vuejs Project</span>
+            <Avatar 
+              color={Avatar.getRandomColor('sitebase', ['#21BCDD', '#00A080', '#E7C621', '#8F43FB'])} 
+              name="Finance" round={true} size={32} 
+            />
+            <span className='align-middle font-weight-bold'>Finance</span>
           </td>
-          <td>Jack Obes</td>
+          <td>$567.00</td>
+          <td>Mar 23, 2021</td>
+          <td>Mar 30, 2021</td>
           <td>
-            <AvatarGroup data={avatarGroupData3} />
-          </td>
-          <td>
-            <Badge pill color='light-info' className='mr-1'>
-              Scheduled
+            <Badge pill variant="success" color="success" >
+              Completed
             </Badge>
           </td>
         </tr>
         <tr>
+          <td>7834</td>
           <td>
-            <img className='mr-75' src={react} alt='bootstrap' height='20' width='20' />
-            <span className='align-middle font-weight-bold'>Bootstrap Project</span>
+            <Avatar 
+              color={Avatar.getRandomColor('sitebase', ['#21BCDD', '#00A080', '#8F43FB', '#E7C621'])} 
+              name="Finance" round={true} size={32} 
+            />
+            <span className='align-middle font-weight-bold'>Finance</span>
           </td>
-          <td>Jerry Milton</td>
+          <td>$567.00</td>
+          <td>Mar 23, 2021</td>
+          <td>Mar 30, 2021</td>
           <td>
-            <AvatarGroup data={avatarGroupData4} />
+            <Badge pill variant="success" color="success" >
+              Completed
+            </Badge>
           </td>
+        </tr>
+        <tr>
+          <td>7834</td>
           <td>
-            <Badge pill color='light-warning' className='mr-1'>
-              Pending
+            <Avatar 
+              color={Avatar.getRandomColor('sitebase', ['#21BCDD', '#E7C621', '#8F43FB', '#00A080'])} 
+              name="Finance" round={true} size={32} 
+            />
+            <span className='align-middle font-weight-bold'>Finance</span>
+          </td>
+          <td>$567.00</td>
+          <td>Mar 23, 2021</td>
+          <td>Mar 30, 2021</td>
+          <td>
+            <Badge pill variant="success" color="success" >
+              Completed
+            </Badge>
+          </td>
+        </tr>
+        <tr>
+          <td>7834</td>
+          <td>
+            <Avatar 
+              color={Avatar.getRandomColor('sitebase', ['#00A080', '#E7C621', '#8F43FB', '#21BCDD'])} 
+              name="Finance" round={true} size={32} 
+            />
+            <span className='align-middle font-weight-bold'>Finance</span>
+          </td>
+          <td>$567.00</td>
+          <td>Mar 23, 2021</td>
+          <td>Mar 30, 2021</td>
+          <td>
+            <Badge pill variant="success" color="success" >
+              Completed
             </Badge>
           </td>
         </tr>
