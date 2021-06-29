@@ -19,3 +19,27 @@
   .mt-2 {
     margin-top: 20px;
   }
+
+  /* buttons  */
+  .buttonType__one {
+    color: #fff;
+    background-color: #066fc0;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    cursor: pointer;
+  }
+
+/* containers  */
+.wrapper__box {
+  background-color: #F6F7FA;   
+}
+.wrapper__innerBox {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -1px 5px 1px #f1f1f1;
+}

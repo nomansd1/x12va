@@ -1,12 +1,12 @@
 import React from 'react'
 import './ClientProfileDetails.css'
+import Table from './Table'
 
 function ClientProfileDetails() {
     return (
         <div className="cprofile__details">
             <h2>My Orders</h2>
-            <hr />
-            <table className="order__tableContent">
+            {/* <table className="order__tableContent">
                 <thead>
                     <tr>
                         <th border="1">order numbers</th>
@@ -59,8 +59,9 @@ function ClientProfileDetails() {
                         <td><span className="order__status">completed</span></td>
                     </tr>
                 </tbody>
-            </table>
-            <button>Place Order</button>
+            </table> */}
+            <Table/>
+            <button className="buttonType__one">Place Order</button>
         </div>
     )
 }

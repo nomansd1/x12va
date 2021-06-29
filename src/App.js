@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // theme
 import './Components/Theme.css'
@@ -27,6 +27,9 @@ import ExpertResultFound from './Components/Screens/Experts Results Screen/Exper
 import CreditCardDetails from './Components/Screens/Credit Card Details Screen/CreditCardDetails';
 import UserReferenceCode from './Components/Screens/User Reference Code Screen/UserReferenceCode';
 import Signup from './Components/Screens/SignupScreen/Signup';
+import Congratulations from './Components/Screens/CongratulationsScreen/Congratulations';
+import SupportUs from './Components/Screens/SupportUsScreen/SupportUs';
+import SendProposal from './Components/Screens/PropossalScreen/SendProposal'
 
 
 function App() {
@@ -127,6 +130,12 @@ function App() {
             />
             <CreditCardDetails/>
           </Route>
+          <Route path="/congratulations" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <Congratulations/>
+          </Route>
           <Route path="/referencecode" exact>
             <Navbar
               cName="navbar__color"
@@ -138,6 +147,18 @@ function App() {
               cName="navbar__color"
             />
             <Signup/>
+          </Route>
+          <Route path="/supportus" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <SupportUs/>
+          </Route>
+          <Route path="/sendproposal" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <SendProposal/>
           </Route>
         </Switch>
         <Footer/>

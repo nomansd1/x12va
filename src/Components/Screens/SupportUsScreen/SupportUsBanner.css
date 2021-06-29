@@ -1,25 +1,24 @@
-.abtBanner {
-    background-image: url("../../../Assets/Images/about\ us\ banner.png");
+.sp__banner {
+    background-image: url("../../../Assets/Images/SupportUsBAnner.png");
     background-size: cover;
     background-position:center center ;
     position: relative;
     object-fit: cover;
     height: 60vh;
 }
-.abt__content {
+.sp__content {
     margin-left: 150px;
     padding-top: 100px;
     padding-bottom: 0px;
     height: fit-content;
     width: 550px;
 }
-.company__title {
-    font-weight: 400;
+.sp__content h1 {
+    font-weight: 800;
     padding-bottom: 1.2rem;
     color: #066FC0;
 }
-.company__desc {
-    padding-bottom: 1.2rem;
-    line-height: 30px;
+.sp__content p {
     font-weight: 600;
+    line-height: 30px;
 }

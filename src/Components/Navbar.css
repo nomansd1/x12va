@@ -51,9 +51,12 @@
     margin-right: 13px;
 }
 
+.login__details {
+    height: fit-content;
+    margin-top: -13px;
+}
 
-
-.nav__content > button {
+.login__details > button {
     background-color: transparent;
     color: #fff;
     border: 2px solid #fff;
@@ -66,6 +69,48 @@
     font-size: 13px;
 }
 
+.navbar__right {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -8px;
+    margin-left: 40px;
+}
+.navbar__right img {
+    width: 24px;
+}
+.navbar__right .icon__wrap {
+    cursor: pointer;
+}
+.navbar__right .inbox , 
+.navbar__right .notifications {
+    margin-right: 25px;
+}
+.navbar__right .inbox .icon__wrap , 
+.navbar__right .notifications .icon__wrap {
+    /* font-size: 28px; */
+}
+.navbar__right .inbox , 
+.navbar__right .notifications,
+.navbar__right .userProfile__auth {
+    position: relative;
+}
+
+.userProfile__auth .icon__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.userProfile__auth .icon__wrap img {
+    width: 40px;
+}
+.userProfile__auth .icon__wrap span {
+    margin-left: 10px;
+}
+.userProfile__auth .icon__wrap span img {
+    width: 13px;
+}
 .click__menu {
     font-size: 2rem;
     cursor: pointer;
