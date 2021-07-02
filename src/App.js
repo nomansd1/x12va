@@ -30,7 +30,7 @@ import Signup from './Components/Screens/SignupScreen/Signup';
 import Congratulations from './Components/Screens/CongratulationsScreen/Congratulations';
 import SupportUs from './Components/Screens/SupportUsScreen/SupportUs';
 import SendProposal from './Components/Screens/PropossalScreen/SendProposal'
-
+import ExpertPublicProfile from './Components/Screens/Profile Screen/ExpertPublicProfile'
 
 function App() {
   return (
@@ -69,6 +69,12 @@ function App() {
               cName="navbar__color"
             />
             <ClientProfile/>
+          </Route>
+          <Route path="/expertpublicprofile" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <ExpertPublicProfile/>
           </Route>
           <Route path="/about" exact>
             <Navbar
