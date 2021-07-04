@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstra p/dist/css/bootstrap.min.css';
 
 // theme
 import './Components/Theme.css'
@@ -30,6 +30,7 @@ import Signup from './Components/Screens/SignupScreen/Signup';
 import Congratulations from './Components/Screens/CongratulationsScreen/Congratulations';
 import SupportUs from './Components/Screens/SupportUsScreen/SupportUs';
 import SendProposal from './Components/Screens/PropossalScreen/SendProposal'
+import Proposals from './Components/Screens/PropossalScreen/Proposals'
 import ExpertPublicProfile from './Components/Screens/Profile Screen/ExpertPublicProfile'
 
 function App() {
@@ -165,6 +166,12 @@ function App() {
               cName="navbar__color"
             />
             <SendProposal/>
+          </Route>
+          <Route path="/proposals" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <Proposals/>
           </Route>
         </Switch>
         <Footer/>
