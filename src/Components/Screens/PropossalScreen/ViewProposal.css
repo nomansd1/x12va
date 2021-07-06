@@ -1,0 +1,44 @@
+.viewProposal__box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 30px 80px 60px 80px;
+}
+.viewProposal__box label {
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.viewProposal__box p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.viewProposal__box span {
+    margin-left: 7px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #079F80;
+}
+.viewProposal__btn {
+    margin-top: 20px;
+}
+.viewProposal__btn button {
+    color: #066fc0;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 5px 30px;
+    border: 2px solid #066fc0;
+    outline: none;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.viewProposal__btn button:hover {
+    color: #fff;
+    background-color: #066fc0;
+    transition: 0.5s;
+    padding: 5px 30px;
+    margin-left: 13px;
+}

@@ -1,0 +1,23 @@
+.bcv__box {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.bcv__inputBox {
+    display: flex;
+    flex-direction: column;
+}
+.bcv__inputBox label {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.bcv__inputBox input , .bcv__inputBox textarea {
+    padding: 3px 10px;
+    margin-bottom: 20px;
+    resize: none;
+}
+.bcv__inputBox textarea {
+    height: 100px;
+}

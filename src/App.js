@@ -31,7 +31,9 @@ import Congratulations from './Components/Screens/CongratulationsScreen/Congratu
 import SupportUs from './Components/Screens/SupportUsScreen/SupportUs';
 import SendProposal from './Components/Screens/PropossalScreen/SendProposal'
 import Proposals from './Components/Screens/PropossalScreen/Proposals'
+import ViewProposal from './Components/Screens/PropossalScreen/ViewProposal'
 import ExpertPublicProfile from './Components/Screens/Profile Screen/ExpertPublicProfile'
+import BecomeVerifier from './Components/Screens/PropossalScreen/BecomeVerifier'
 
 function App() {
   return (
@@ -172,6 +174,18 @@ function App() {
               cName="navbar__color"
             />
             <Proposals/>
+          </Route>
+          <Route path="/viewproposal" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <ViewProposal/>
+          </Route>
+          <Route path="/becomeverifier" exact>
+            <Navbar
+              cName="navbar__color"
+            />
+            <BecomeVerifier/>
           </Route>
         </Switch>
         <Footer/>
